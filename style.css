@@ -1,0 +1,17 @@
+h1 {
+    /* color: blue; */
+}
+
+#image {
+    height: 30%;
+    width: 30%;
+}
+
+.nav-wrapper {
+    background-color: rgb(70, 70, 70) !important;
+}
+
+.card-panel {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+}
