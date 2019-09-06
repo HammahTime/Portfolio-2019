@@ -21,7 +21,7 @@
             <ul id="nav-mobile" class="left hide-on-med-and-down">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="videos.html">Videos</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="photo.html">Photos</a></li>
             </ul>
         </div>
     </nav>
@@ -128,8 +128,8 @@
             $('.modal').modal();
         });
         
-        $(".modal").on('modal-close', function (e) {
-            $(".videoWrapper iframe").attr("src", $(".videoWrapper iframe").attr("src"));
+        $(".modal").on('onCloseEnd', function (e) {
+            $(".modal iframe").attr("src", $(".modal iframe").attr("src"));
         });
 
     </script>
