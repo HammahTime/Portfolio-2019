@@ -127,6 +127,10 @@
             $('.carousel').carousel();
             $('.modal').modal();
         });
+        
+        $(".modal").on('modal-close', function (e) {
+            $(".videoWrapper iframe").attr("src", $(".videoWrapper iframe").attr("src"));
+        });
 
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
