@@ -11,6 +11,10 @@ h1 {
     background-color: rgb(70, 70, 70) !important;
 }
 
+.section {
+    background-color: rgb(230, 230, 230) !important;
+}
+
 .card-panel {
     margin-right: 20px !important;
     margin-left: 20px !important;
